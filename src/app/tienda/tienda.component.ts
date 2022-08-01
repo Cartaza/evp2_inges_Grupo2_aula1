@@ -27,7 +27,7 @@ export class TiendaComponent implements OnInit {
    /*ELIGE LA PROMO*/
    eligePromo1(){
     if( this.logueado == null){
-      alert("Debes iniciar sesion para continuar");
+      alert("You must log in to continue");
       window.location.href = "https://cartaza.github.io/evp2_inges_Grupo2_aula1/login";  
     }else{
       localStorage.setItem("PLAN", "MONTHLY PLAN");
@@ -38,7 +38,7 @@ export class TiendaComponent implements OnInit {
    
    eligePromo2(){
     if( this.logueado == null){
-      alert("Debes iniciar sesion para continuar");
+      alert("You must log in to continue");
       window.location.href = "https://cartaza.github.io/evp2_inges_Grupo2_aula1/login";  
     }else{
       localStorage.setItem("PLAN", "SEMESTER PLAN");
@@ -48,7 +48,7 @@ export class TiendaComponent implements OnInit {
 
    eligePromo3(){
     if( this.logueado == null){
-      alert("Debes iniciar sesion para continuar");
+      alert("You must log in to continue");
       window.location.href = "https://cartaza.github.io/evp2_inges_Grupo2_aula1/login";  
     }else{
       localStorage.setItem("PLAN", "ANNUAL PLAN");
