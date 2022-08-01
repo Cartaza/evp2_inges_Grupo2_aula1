@@ -32,7 +32,7 @@ export class LoginComponent implements OnInit{
        
     this.boton = false;
     if (this.boton == false){
-      window.location.href = "http://localhost:4200/home";  
+      window.location.href = "https://cartaza.github.io/evp2_inges_Grupo2_aula1/home";  
     }
   }
 
