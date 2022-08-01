@@ -10,8 +10,8 @@ export class CarritoComponent implements OnInit {
   public promoSemestral = 500;
   public promoAnual = 900;
   logueado = localStorage.getItem("usuario");
-  promoElegida = localStorage.getItem("precio");
-  promo = localStorage.getItem("promo");
+  promoElegida = localStorage.getItem("PRICE");
+  promo = localStorage.getItem("PLAN");
 
   constructor() {
     this.promoAnual = this.promoAnual;
