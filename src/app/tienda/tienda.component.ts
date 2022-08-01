@@ -28,7 +28,7 @@ export class TiendaComponent implements OnInit {
    eligePromo1(){
     if( this.logueado == null){
       alert("Debes iniciar sesion para continuar");
-      window.location.href = "http://localhost:4200/login";  
+      window.location.href = "https://cartaza.github.io/evp2_inges_Grupo2_aula1/login";  
     }else{
       localStorage.setItem("promo", "PROMO MENSUAL");
       localStorage.setItem("precio", "300");
