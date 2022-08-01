@@ -25,7 +25,7 @@ export class CarritoComponent implements OnInit {
   ngOnInit(): void {
 
     if( this.logueado == null){
-      window.location.href = "http://localhost:4200/login";  
+      window.location.href = "http://https://cartaza.github.io/evp2_inges_Grupo2_aula1/login";  
     }
 
   }
