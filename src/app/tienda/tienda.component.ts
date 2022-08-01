@@ -30,8 +30,8 @@ export class TiendaComponent implements OnInit {
       alert("Debes iniciar sesion para continuar");
       window.location.href = "https://cartaza.github.io/evp2_inges_Grupo2_aula1/login";  
     }else{
-      localStorage.setItem("promo", "PROMO MENSUAL");
-      localStorage.setItem("precio", "300");
+      localStorage.setItem("PLAN", "MONTHLY PLAN");
+      localStorage.setItem("PRICE", "300");
     }
    }
 
@@ -39,20 +39,20 @@ export class TiendaComponent implements OnInit {
    eligePromo2(){
     if( this.logueado == null){
       alert("Debes iniciar sesion para continuar");
-      window.location.href = "http://localhost:4200/login";  
+      window.location.href = "https://cartaza.github.io/evp2_inges_Grupo2_aula1/login";  
     }else{
-      localStorage.setItem("promo", "PROMO SEMESTRAL");
-    localStorage.setItem("precio", "500");
+      localStorage.setItem("PLAN", "SEMESTER PLAN");
+    localStorage.setItem("PRICE", "500");
     }
    }
 
    eligePromo3(){
     if( this.logueado == null){
       alert("Debes iniciar sesion para continuar");
-      window.location.href = "http://localhost:4200/login";  
+      window.location.href = "https://cartaza.github.io/evp2_inges_Grupo2_aula1/login";  
     }else{
-      localStorage.setItem("promo", "PROMO ANUAL");
-      localStorage.setItem("precio", "900");
+      localStorage.setItem("PLAN", "ANNUAL PLAN");
+      localStorage.setItem("PRICE", "900");
     }
    }
  
